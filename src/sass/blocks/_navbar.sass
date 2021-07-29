@@ -1,0 +1,55 @@
+.navbar
+	padding-top: 30px
+	padding-bottom: 24px
+	display: flex
+	align-items: center
+	justify-content: space-between
+	&__items
+		display: flex
+		align-items: center
+		justify-content: space-between
+	&__logo
+		display: flex
+		align-items: center
+		img
+			margin-right: 6px
+		span
+			font-size: 24px
+			font-weight: 700
+	&__main-link
+		margin-right: 20px
+	&__link:not(:last-child)
+		margin-right: 14px
+	&__button_primary
+		margin-left: 25px
+		padding: 10px 14px
+		border: 1px solid $primary
+		border-radius: 5px
+		background-color: $primary
+		transition: 0.3s
+		color: $white
+		&:hover
+			background-color: transparent
+			color: $primary
+	&__link, &__button:first-child
+		&:hover
+			text-decoration: underline
+.search-panel
+	height: 44px
+	display: flex
+	padding: 3px
+	background-color: $primary
+	border-radius: 5px
+	&__input
+		padding-left: 22px
+		border-radius: 5px
+		flex-grow: 1
+	&__button
+		display: flex
+		align-items: center
+		background-color: $primary
+		padding-left: 20px
+		padding-right: 17px
+		color: $white
+	&__icon
+		padding-right: 3px

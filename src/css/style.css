@@ -1,0 +1,127 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #0A143A;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.navbar {
+  padding-top: 30px;
+  padding-bottom: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__logo img {
+  margin-right: 6px;
+}
+
+.navbar__logo span {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.navbar__main-link {
+  margin-right: 20px;
+}
+
+.navbar__link:not(:last-child) {
+  margin-right: 14px;
+}
+
+.navbar__button_primary {
+  margin-left: 25px;
+  padding: 10px 14px;
+  border: 1px solid #256EEB;
+  border-radius: 5px;
+  background-color: #256EEB;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #ffffff;
+}
+
+.navbar__button_primary:hover {
+  background-color: transparent;
+  color: #256EEB;
+}
+
+.navbar__link:hover, .navbar__button:first-child:hover {
+  text-decoration: underline;
+}
+
+.search-panel {
+  height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3px;
+  background-color: #256EEB;
+  border-radius: 5px;
+}
+
+.search-panel__input {
+  padding-left: 22px;
+  border-radius: 5px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.search-panel__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #256EEB;
+  padding-left: 20px;
+  padding-right: 17px;
+  color: #ffffff;
+}
+
+.search-panel__icon {
+  padding-right: 3px;
+}
+/*# sourceMappingURL=style.css.map */
